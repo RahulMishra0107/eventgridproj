@@ -2,41 +2,8 @@
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "eventSubscriptionName": {
-      "value": "egtestsubscription"
-    },
-    "resourceSymbolicName": {
-      "value": ""
-    },
-    "deadLetterEndpointType": {
-      "value": "WebHook"
-    },
-    "userAssignedIdentity": {
-      "value": ""
-    },
-    "eventDeliveryEndpointType": {
-      "value": "WebHook"
-    },
-    "eventDeliverySchema": {
-      "value": "EventGridSchema"
-    },
-    "expirationTimeUtc": {
-      "value": "2023-12-31T23:59:59Z"
-    },
-    "advancedFilterKey": {
-      "value": "your-advanced-filter-key"
-    },
-    "advancedFilterOperatorType": {
-      "value": "StringContains"
-    },
-    "isSubjectCaseSensitive": {
-      "value": false
-    },
-    "eventTimeToLiveInMinutes": {
-      "value": 60
-    },
-    "maxDeliveryAttempts": {
-      "value": 3
+    "eventGridNamespaceName": {
+      "value": "your-namespace-name"
     }
   }
 }
