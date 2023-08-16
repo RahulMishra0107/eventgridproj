@@ -3,11 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "eventGridNamespaceName": {
-      "value": "egtestprovision"
-    },
-     "location": {
-      "value": "east us"
+      "value": "your-namespace-name"
     }
-    
   }
 }
