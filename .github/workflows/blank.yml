@@ -90,7 +90,7 @@ jobs:
       - name: Run Template Validation
         working-directory: '${{github.workspace}}/src/bicep'
         run: |
-          az deployment group validate --name mydeployment1 --resource-group 2158167ResGrp  --template-file ./azure_resource.bicep --parameters ./parameter.json
+          az deployment group validate --name mydeployment1 --resource-group rahultestrg  --template-file ./azure_resource.bicep --parameters ./parameter.json
 
 
   # This workflow contains a single job called "Preview"
@@ -119,7 +119,7 @@ jobs:
       - name: Run What-If Tests
         working-directory: '${{github.workspace}}/src/bicep'
         run: |
-          az deployment group what-if --name mydeployment1 --resource-group 2158167ResGrp --template-file ./azure_resource.bicep --parameters ./parameter.json
+          az deployment group what-if --name mydeployment1 --resource-group rahultestrg --template-file ./azure_resource.bicep --parameters ./parameter.json
 
  
 
@@ -151,4 +151,4 @@ jobs:
       - name: Deploy Resource
         working-directory: '${{github.workspace}}/src/bicep'
         run: |
-          az deployment group create --resource-group 2158167ResGrp --template-file ./azure_resource.bicep --parameters ./parameter.json
+          az deployment group create --resource-group rahultestrg --template-file ./azure_resource.bicep --parameters ./parameter.json
