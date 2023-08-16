@@ -4,6 +4,9 @@
   "parameters": {
     "eventGridNamespaceName": {
       "value": "egtestprovision"
+    },
+     "location": {
+      "value": "east us"
     }
     
   }
