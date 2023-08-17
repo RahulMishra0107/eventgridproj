@@ -8,5 +8,3 @@ resource eventGridNamespace 'Microsoft.EventGrid/namespaces@2023-06-01-preview' 
     name: 'Standard'
   }
 }
-
-output eventGridNamespaceId string = eventGridNamespace.id
